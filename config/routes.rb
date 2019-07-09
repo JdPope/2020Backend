@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
   resources :markers
   resources :dogs
   resources :users
